@@ -4,47 +4,130 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f97e10-e280-4716-bcc7-16fd2db41bcd" name="Changes" comment="" />
+    <list default="true" id="8a4f14c5-d859-466b-b16a-9ce0bc88c4d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/algorithm/Dijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/algorithm/Prim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/graph/WeightedDirectedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/graph/WeightedDirectedGraphImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/graph/WeightedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/graph/WeightedUndirectedGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/java/at/fh_burgenland/bswe/algo/graph/WeightedUndirectedGraphImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/test/java/at/fh_burgenland/bswe/algo/algorithm/DijkstraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/test/java/at/fh_burgenland/bswe/algo/algorithm/PrimTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/test/java/at/fh_burgenland/bswe/algo/graph/WeightedDirectedGraphTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/test/java/at/fh_burgenland/bswe/algo/graph/WeightedUndirectedGraphTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/algorithm/Dijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/algorithm/Prim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/graph/WeightedDirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/graph/WeightedDirectedGraphImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/graph/WeightedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/graph/WeightedUndirectedGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/at/fh_burgenland/bswe/algo/graph/WeightedUndirectedGraphImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/target/classes/log4j2.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="2qeyMU4Ct8rbCozPGAvOVCyLQzS" />
+  <component name="ProjectId" id="2qxJUMa2tBrKH8A20ssVzX92DZX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.WeightedDirectedGraphTest.executor": "Run",
+    "JUnit.WeightedUndirectedGraphTest.executor": "Run",
+    "JUnit.WeightedUndirectedGraphTest.removeVertex.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/workspaces/graph/graph",
+    "last_opened_file_path": "C:/Data/Workspace/algou5/graph",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
+  <component name="RunManager" selected="JUnit.WeightedDirectedGraphTest">
+    <configuration name="WeightedDirectedGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fh_burgenland.bswe.algo.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.fh_burgenland.bswe.algo.graph" />
+      <option name="MAIN_CLASS_NAME" value="at.fh_burgenland.bswe.algo.graph.WeightedDirectedGraphTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="WeightedUndirectedGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="graph" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fh_burgenland.bswe.algo.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.fh_burgenland.bswe.algo.graph" />
+      <option name="MAIN_CLASS_NAME" value="at.fh_burgenland.bswe.algo.graph.WeightedUndirectedGraphTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WeightedUndirectedGraphTest.removeVertex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fh_burgenland.bswe.algo.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.fh_burgenland.bswe.algo.graph" />
+      <option name="MAIN_CLASS_NAME" value="at.fh_burgenland.bswe.algo.graph.WeightedUndirectedGraphTest" />
+      <option name="METHOD_NAME" value="removeVertex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeightedDirectedGraphTest" />
+        <item itemvalue="JUnit.WeightedUndirectedGraphTest" />
+        <item itemvalue="JUnit.WeightedUndirectedGraphTest.removeVertex" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -57,13 +140,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="47f97e10-e280-4716-bcc7-16fd2db41bcd" name="Changes" comment="" />
-      <created>1735037287584</created>
+      <changelist id="8a4f14c5-d859-466b-b16a-9ce0bc88c4d4" name="Changes" comment="" />
+      <created>1735598307678</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735037287584</updated>
-      <workItem from="1735037288616" duration="1662000" />
-      <workItem from="1735043930414" duration="38000" />
+      <updated>1735598307678</updated>
+      <workItem from="1735598308780" duration="3870000" />
+      <workItem from="1735602346791" duration="154000" />
     </task>
     <servers />
   </component>
