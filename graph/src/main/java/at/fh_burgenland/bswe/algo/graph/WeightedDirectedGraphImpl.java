@@ -60,6 +60,9 @@ public class WeightedDirectedGraphImpl  implements WeightedDirectedGraph{
     @Override
     public void removeEdge(String from, String to) {
         this.graph.get(from).remove(to);
+        if(hasEdge(to, from)){
+            this.graph.get(to).remove(from);
+        }
     }
 
     /**
@@ -106,6 +109,9 @@ public class WeightedDirectedGraphImpl  implements WeightedDirectedGraph{
      */
     @Override
     public void addEdge(String from, String to, int weight) {
+        if(!this.hasVertex(from) || !this.hasVertex(to)){
+            throw new IllegalArgumentException("One or both vertices do not exist");
+        }
         this.graph.get(from).put(to, weight);
     }
 
@@ -116,6 +122,9 @@ public class WeightedDirectedGraphImpl  implements WeightedDirectedGraph{
      */
     @Override
     public int getWeight(String from, String to) {
+        if(!this.hasEdge(from, to)){
+            return Integer.MAX_VALUE;
+        }
         return this.graph.get(from).get(to);
     }
 }
