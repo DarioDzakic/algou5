@@ -59,9 +59,11 @@ public class WeightedDirectedGraphImpl  implements WeightedDirectedGraph{
      */
     @Override
     public void removeEdge(String from, String to) {
-        this.graph.get(from).remove(to);
-        if(hasEdge(to, from)){
-            this.graph.get(to).remove(from);
+        if(hasEdge(from, to)){
+            this.graph.get(from).remove(to);
+            if(hasEdge(to, from)){
+                this.graph.get(to).remove(from);
+            }
         }
     }
 

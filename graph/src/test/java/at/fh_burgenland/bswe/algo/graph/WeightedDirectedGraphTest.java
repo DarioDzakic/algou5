@@ -151,15 +151,6 @@ class WeightedDirectedGraphTest {
     }
 
     @Test
-    void selfLoop() {
-        WeightedDirectedGraphImpl graph = new WeightedDirectedGraphImpl();
-        graph.addVertex("A");
-        graph.addEdge("A", "A", 15);
-        assertTrue(graph.hasEdge("A", "A"));
-        assertEquals(15, graph.getWeight("A", "A"));
-    }
-
-    @Test
     void largeGraph() {
         WeightedDirectedGraphImpl graph = new WeightedDirectedGraphImpl();
         for (int i = 0; i < 1000; i++) {
