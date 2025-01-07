@@ -4,18 +4,13 @@ import at.fh_burgenland.bswe.algo.graph.WeightedUndirectedGraph;
 
 import java.util.*;
 
-/**
- * Class implementing Prim's algorithm for finding the Minimum Spanning Tree (MST)
- * in a weighted undirected graph.
- */
 public class Prim {
 
     /**
-     * Returns a list of edges (in string format) representing the MST of the given weighted undirected graph.
-     * Each edge in the resulting list is represented as "u-v:weight".
+     * Calculates the minimum spanning tree of a graph using Prim's algorithm.
      *
-     * @param graph a weighted undirected graph (must be connected)
-     * @return a list of edges of the minimum spanning tree
+     * @param graph The weighted undirected graph to calculate the MST on. Must be connected.
+     * @return A list of edges representing the minimum spanning tree (MST), format: ["A-B", "B-C", ...]
      */
     public static List<String> prim(WeightedUndirectedGraph graph) {
 
